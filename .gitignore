@@ -2,3 +2,6 @@
 **/.idea
 */.webpack
 */.serverless
+.serverless
+**/.env
+*/.env

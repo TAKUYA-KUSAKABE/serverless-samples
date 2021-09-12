@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "ap-northeast-1",
+      "eventTime": "2021-09-12T08:27:56.238Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:xxxxxx:xxx"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "xx1.2xx.xx7.xxx"
+      },
+      "responseElements": {
+        "x-amz-request-id": "xxxxx",
+        "x-amz-id-2": "xxxxxx"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "aaa",
+        "bucket": {
+          "name": "test-xxx",
+          "ownerIdentity": [
+            "Object"
+          ],
+          "arn": "arn:aws:s3:::test-xxx"
+        },
+        "object": {
+          "key": "xxx.png",
+          "size": 30703,
+          "eTag": "xxxxx",
+          "sequencer": "xxxxx"
+        }
+      }
+    }
+  ]
+}
